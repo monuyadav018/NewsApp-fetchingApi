@@ -1,4 +1,4 @@
-// step 1
+// step 1 this is used to fetch apis from the 
 export const getPosts = async () =>{
     const response = await fetch("https://jsonplaceholder.typicode.com/posts",{
         method:"GET",
