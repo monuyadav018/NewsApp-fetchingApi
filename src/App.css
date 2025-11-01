@@ -1,0 +1,26 @@
+.card{
+  /* padding: 20px; */
+  box-shadow:rgba(149,157,165,0.2) 0px 8px 24px ;
+  height: 200px;
+  width: 400px;
+   background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 100px;
+  width: 300px;
+
+
+}
+
+.App{
+   display:grid;
+   /* display: grid; */
+      grid-template-columns: repeat(3, 1fr); /* Creates two equal-width columns */
+      gap: 20px;
+
+}
+
+.nav{
+  width: 100%;
+}
